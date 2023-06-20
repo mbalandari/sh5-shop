@@ -35,9 +35,10 @@ header h1 {
     width: 4.7rem;
 }
 
-header h1 img {
+header h1 img, .products img {
     width: 100%;
     max-width: 100%;
+    display: block;
 }
 
 a {
@@ -58,6 +59,7 @@ a {
     background-position: right center;
     padding-top: 6.9rem;
     padding-bottom: 7.5rem;
+    margin-bottom: 1.9rem;
 }
 
 .hero h2 {
@@ -72,4 +74,33 @@ a {
 
 .intro {
     max-width: 27.5rem;
+}
+
+.filters {
+    margin-bottom: 1.25rem;
+}
+
+.filters a {
+    color: #000;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.filters .active {
+    font-weight: 700;
+    border-bottom: 3px solid #feea34;
+    padding-bottom: 1px;
+}
+
+.products {
+    margin-bottom: 2.5rem;
+}
+
+.products .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 33.33333%;
 }
