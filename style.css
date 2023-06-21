@@ -93,7 +93,7 @@ a {
 }
 
 .products {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
 }
 
 .products .container {
@@ -133,4 +133,20 @@ a {
     position: absolute;
     bottom: 1rem;
     left: 1rem;
+}
+
+@media (max-width: 860px) {
+    .hero {
+        padding-top: 3.5rem;
+        padding-bottom: 3.75rem;
+    }
+
+    .product {
+        width: 50%;
+    }
+
+    .container {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
 }
