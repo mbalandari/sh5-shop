@@ -211,4 +211,8 @@ a {
         display: block;
         margin-bottom: 5px;
     }
+
+    .filters-list {
+        display: none;
+    }
 }

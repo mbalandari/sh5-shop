@@ -1,1 +1,3 @@
-console.log("Hey Maz!")
+$('.show-filters').on('click', function () {
+    $('.filters-list').toggle()
+})
