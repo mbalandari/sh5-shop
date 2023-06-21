@@ -10,6 +10,10 @@ $('.show-filters').on('click', function () {
 })
 
 $('.filters-list a').on('click', function () {
-    console.log('howdy!')
+    var filter = $(this).attr('data-filter')
+
+    $('.product').hide()
+    $(filter).show()
+
     return false
 })
