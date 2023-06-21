@@ -135,6 +135,10 @@ a {
     left: 1rem;
 }
 
+.filters .show-filters {
+    color: #bfbfb7;
+}
+
 @media (max-width: 860px) {
     .hero {
         padding-top: 3.5rem;
