@@ -150,3 +150,32 @@ a {
         padding-right: 2.5rem;
     }
 }
+
+@media (max-width: 770px) {
+    .hero {
+        background-image: none;
+        background-color: #bfbfb7;
+        padding-top: 1.8rem;
+        padding-bottom: 1.9rem;
+    }
+
+    .intro {
+        max-width: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .intro h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
