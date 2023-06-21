@@ -8,3 +8,8 @@ $('.show-filters').on('click', function () {
         $('.show-filters').text('Hide filters')
     }
 })
+
+$('.filters-list a').on('click', function () {
+    console.log('howdy!')
+    return false
+})
