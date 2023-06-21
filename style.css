@@ -204,10 +204,11 @@ a {
 
     .filters li {
         display: block;
-        margin-bottom: 2px;
+        margin-bottom: 3px;
     }
 
     .show-filters {
         display: block;
+        margin-bottom: 5px;
     }
 }
